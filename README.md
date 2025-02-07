@@ -1,0 +1,1 @@
+This example demonstrates a common error in Groovy when using `eachWithIndex` to iterate and modify a list simultaneously. Modifying the list during iteration using remove() can cause unexpected index skips, leading to incorrect results or exceptions. The solution offers a safer approach using an iterator or a copy of the list.
